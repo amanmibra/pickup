@@ -35,7 +35,7 @@ defmodule PickupWeb.Endpoint do
   plug Plug.Session,
     store: :cookie,
     key: "_pickup_key",
-    signing_salt: "pMD55Ohd"
+    signing_salt: "Yd8fMM4r"
 
   plug PickupWeb.Router
 

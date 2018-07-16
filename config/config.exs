@@ -12,7 +12,7 @@ config :pickup,
 # Configures the endpoint
 config :pickup, PickupWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "9lz2gjS8J1mFjohhKCqeEPFteWJxm127J84x7xt8JQEo2TVqU9YsgV9hhBoZAlXR",
+  secret_key_base: "f1jQanFt2ASLlhh5stX4ULl5oxjGy+ODSQXC/2ThJE/StKeGCG6n9NdtCkf8oTfy",
   render_errors: [view: PickupWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Pickup.PubSub,
            adapter: Phoenix.PubSub.PG2]
